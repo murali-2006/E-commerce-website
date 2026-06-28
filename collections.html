@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h1>FashionTrends</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="toggle">
+            <button onclick="show()">---</button>
+        </div>
+    </nav>
+
+    <div class="sidebar">
+        <div class="sidenavbar-links">
+            <p style="text-align: right;"><button onclick="hide()">X</button></p>
+            <p class="sidenavbar-link"><a href="index.html">Home</a></p>
+            <p class="sidenavbar-link"><a href="collections.html">Collections</a></p>
+            <p class="sidenavbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <div class="products-section">
+        <form>
+            <input type="text" class="search" placeholder="Search">
+        </form>
+        <div class="products">
+            <div class="products-box">
+                <img style="width:300px; height:300px;" src="images/whiteshirt.jpeg">
+                <p>White Shirt</p>
+            </div>
+            <div class="products-box">
+                <img style="width:300px; height:300px;" src="images/blackshirt.jpeg">
+                <p>Black Shirt</p>
+            </div>
+            <div class="products-box">
+                <img style="width:300px; height:300px;" src="images/greenshirt.jpeg">
+                <p>Green shirt</p>
+            </div>
+            <div class="products-box">
+                <img style="width:300px; height:300px;" src="images/blackpant.jpeg">
+                <p>Black pant</p>
+            </div>
+            <div class="products-box">
+                <img style="width:300px; height:300px;" src="images/saree.jpeg">
+                <p>Saree</p>
+            </div>
+            <div class="products-box">
+                <img style="width:300px; height:300px;" src="images/jeans.jpeg">
+                <p>Jeans</p>
+            </div>
+            <div class="products-box">
+                <img style="width:300px; height:300px;" src="images/kurthi.jpeg">
+                <p>Kuruthi</p>
+            </div>
+            <div class="products-box">
+                <img style="width:300px; height:300px;" src="images/coatsuit.jpg">
+                <p>Coat Suits</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>FashionTrends</h2>
+        <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus accusamus
+            nobis nihil commodi possimus facilis assumenda? Quaerat sequi, quam ratione veritatis maiores a tempora
+            necessitatibus praesentium, mollitia ex deserunt harum eos recusandae neque eius assumenda animi facere.
+            Repudiandae, eligendi.</p>
+        <p>@2026 FashionTrends.com</p>
+    </div>
+    <script src="script.js"> </script>
+</body>
+
+</html>
